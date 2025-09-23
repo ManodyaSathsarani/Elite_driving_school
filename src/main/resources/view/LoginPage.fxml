@@ -9,45 +9,40 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="729.0" prefWidth="1211.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.elite_driving_schoolorm.controller.LoginPageController">
+<AnchorPane prefHeight="933.0" prefWidth="1635.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.elite_driving_schoolorm.controller.LoginPageController">
    <children>
       <Pane layoutX="-3.0" layoutY="4.0" prefHeight="725.0" prefWidth="694.0">
          <children>
             <ImageView fitHeight="725.0" fitWidth="694.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="729.0" fitWidth="694.0" layoutY="-4.0">
+            <ImageView fitHeight="933.0" fitWidth="823.0" layoutX="-15.0" layoutY="-4.0">
                <image>
                   <Image url="@../../../../../Downloads/Concept%20of%20road%20with%20traffic%20lights_%20vector%20illustration%20_%20Premium%20Vector.jpeg" />
                </image>
             </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="693.0" layoutY="4.0" prefHeight="725.0" prefWidth="529.0">
+      <Pane layoutX="802.0" layoutY="1.0" prefHeight="933.0" prefWidth="834.0">
          <children>
-            <Label layoutX="200.0" layoutY="111.0" prefHeight="53.0" prefWidth="151.0" text="User Login ">
-               <font>
-                  <Font name="System Bold Italic" size="28.0" />
-               </font>
-            </Label>
-            <Label layoutX="138.0" layoutY="36.0" text="Elite Driving School" textFill="#76879e">
+            <Label layoutX="278.0" layoutY="45.0" text="Elite Driving School" textFill="#76879e">
                <font>
                   <Font name="System Bold" size="35.0" />
                </font>
             </Label>
-            <Label layoutX="31.0" layoutY="219.0" text="UserName">
+            <Label layoutX="94.0" layoutY="223.0" text="UserName">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Label>
-            <Label layoutX="31.0" layoutY="331.0" text="Password">
+            <TextField fx:id="txtUserName" layoutX="176.0" layoutY="298.0" prefHeight="60.0" prefWidth="332.0" />
+            <Label layoutX="94.0" layoutY="467.0" text="Password">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Label>
-            <TextField layoutX="116.0" layoutY="260.0" prefHeight="25.0" prefWidth="332.0" />
-            <TextField layoutX="116.0" layoutY="372.0" prefHeight="25.0" prefWidth="332.0" />
-            <Button layoutX="256.0" layoutY="456.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="65.0" text="Login" textFill="#111010">
+            <TextField fx:id="txtPassword" layoutX="169.0" layoutY="537.0" prefHeight="60.0" prefWidth="332.0" />
+            <Button layoutX="269.0" layoutY="665.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="108.0" text="Login" textFill="#111010">
                <font>
-                  <Font name="System Bold" size="15.0" />
+                  <Font name="System Bold" size="27.0" />
                </font>
             </Button>
          </children>
