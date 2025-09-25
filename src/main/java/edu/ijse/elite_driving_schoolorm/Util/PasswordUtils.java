@@ -1,4 +1,4 @@
-package edu.ijse.elite_driving_schoolorm.bo.util;
+package edu.ijse.elite_driving_schoolorm.Util;
 
 import org.mindrot.jbcrypt.BCrypt;
 

@@ -1,10 +1,10 @@
 package edu.ijse.elite_driving_schoolorm.controllers;
 
+import edu.ijse.elite_driving_schoolorm.Util.PasswordUtils;
 import edu.ijse.elite_driving_schoolorm.bo.BOFactory;
 import edu.ijse.elite_driving_schoolorm.bo.BOTypes;
 import edu.ijse.elite_driving_schoolorm.bo.custom.UserBO;
 import edu.ijse.elite_driving_schoolorm.dto.UserDTO;
-import edu.ijse.elite_driving_schoolorm.bo.util.PasswordUtils;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;

@@ -69,5 +69,9 @@ public class DashboardController implements Initializable {
 
     }
 
+    @FXML
+    void Lesson(ActionEvent event) {
+        navigateTo("/view/LessonsManagePage.fxml");
+    }
 
 }

@@ -13,5 +13,7 @@ module edu.ijse.elite_driving_schoolorm {
 
     opens edu.ijse.elite_driving_schoolorm to javafx.fxml;
     opens edu.ijse.elite_driving_schoolorm.controllers to javafx.fxml;
+    opens edu.ijse.elite_driving_schoolorm.dto to javafx.base;
+    exports edu.ijse.elite_driving_schoolorm.dto.tm;
     exports edu.ijse.elite_driving_schoolorm;
 }
